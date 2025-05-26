@@ -1356,6 +1356,7 @@ return $fontawesome = array (
     'fas fa-tv',
     'fab fa-twitch',
     'fab fa-twitter',
+    'fab fa-x-twitter',
     'fab fa-twitter-square',
     'fab fa-typo3',
     'fab fa-uber',

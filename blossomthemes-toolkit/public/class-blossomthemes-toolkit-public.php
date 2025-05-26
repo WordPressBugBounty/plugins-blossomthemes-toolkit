@@ -110,13 +110,13 @@ class Blossomthemes_Toolkit_Public {
         $all = apply_filters('bttk_all_enqueue',true);
 		if($all == true)
 		{
-			wp_enqueue_script( 'all', plugin_dir_url( __FILE__ ) . 'js/fontawesome/all.min.js', array(), '6.1.1', true );
+			wp_enqueue_script( 'all', plugin_dir_url( __FILE__ ) . 'js/fontawesome/all.min.js', array(), '6.5.1', true );
 		}
 
 		$shims = apply_filters('bttk_shims_enqueue',true);
 		if($shims == true)
 		{
-			wp_enqueue_script( 'v4-shims', plugin_dir_url( __FILE__ ) . 'js/fontawesome/v4-shims.min.js', array(), '6.1.1', true );
+			wp_enqueue_script( 'v4-shims', plugin_dir_url( __FILE__ ) . 'js/fontawesome/v4-shims.min.js', array(), '6.5.1', true );
 		}
 
 	}

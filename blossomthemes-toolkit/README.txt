@@ -3,9 +3,9 @@ Contributors: blossomthemes
 Donate link: https://blossomthemes.com
 Tags: toolkit, blossom
 Requires at least: 4.4.0
-Tested up to: 6.6
+Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 2.2.6
+Stable tag: 2.2.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,8 +46,13 @@ BlossomThemes Toolkit is a lightweight and safe plugin that generates 12 much-ne
 
 == Changelog ==
 
+= 2.2.7 =
+Released on: 23rd May, 2025
+
+* Compatibility added for webp images.
+
 = 2.2.6 =
-Released on: !5th Apr, 2024
+Released on: 15th Apr, 2024
 
 * Compatibility Updates
 

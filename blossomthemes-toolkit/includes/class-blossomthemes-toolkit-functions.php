@@ -139,7 +139,7 @@ class BlossomThemes_Toolkit_Functions {
                 $attachment_id = $obj->bttk_get_attachment_id( $attachment_id );
             }
             $image_array = wp_get_attachment_image_src( $attachment_id, 'full');
-            $image = preg_match('/(^.*\.jpg|jpeg|png|gif|ico*)/i', $image_array[0]);
+            $image = preg_match('/(^.*\.jpg|jpeg|png|gif|webp|ico*)/i', $image_array[0]);
             if ( $image ) {
                 $output .= '<img src="' . esc_url( $image_array[0] ) . '" alt="" />' . $remove;
             } else {

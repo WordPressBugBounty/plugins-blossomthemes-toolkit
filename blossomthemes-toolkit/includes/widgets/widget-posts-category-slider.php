@@ -105,9 +105,6 @@ class bttk_posts_category_slider_widget extends WP_Widget {
 		echo $obj->bttk_minify_css('<style>
 		#sync1-'.esc_attr( absint( $ran ) ).' {
 		  .item {
-		    background: #0c83e7;
-		    padding: 80px 0px;
-		    margin: 5px;
 		    color: #FFF;
 		    -webkit-border-radius: 3px;
 		    -moz-border-radius: 3px;

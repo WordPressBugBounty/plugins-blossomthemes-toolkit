@@ -271,7 +271,7 @@ jQuery(document).ready(function ($) {
                     .first()
                     .toJSON();
                 var str = attachment.url.split(".").pop();
-                var strarray = ["jpg", "gif", "png", "jpeg"];
+                var strarray = ["jpg", "gif", "png", "jpeg", "webp"];
                 if ($.inArray(str, strarray) != -1) {
                     clicked
                         .find(".bttk-screenshot")

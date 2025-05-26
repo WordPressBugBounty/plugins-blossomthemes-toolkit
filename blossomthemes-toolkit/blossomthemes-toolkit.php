@@ -16,7 +16,7 @@
  * Plugin Name:       BlossomThemes Toolkit
  * Plugin URI:        https://wordpress.org/plugins/blossomthemes-toolkit/
  * Description:       BlossomThemes Toolkit provides you necessary widgets for better and effective blogging.
- * Version:           2.2.6
+ * Version:           2.2.7
  * Author:            blossomthemes
  * Author URI:        https://blossomthemes.com/
  * License:           GPL-2.0+
@@ -30,7 +30,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'BTTK_PLUGIN_VERSION', '2.2.6' );
+define( 'BTTK_PLUGIN_VERSION', '2.2.7' );
 define( 'BTTK_BASE_PATH', dirname( __FILE__ ) );
 define( 'BTTK_FILE_PATH', __FILE__ );
 define( 'BTTK_FILE_URL', rtrim( plugin_dir_url( __FILE__ ), '/' ) );
